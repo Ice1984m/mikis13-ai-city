@@ -1,0 +1,111 @@
+name: AI City V10 Worker Society
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 6,12,18 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile
+        run: |
+          python -m py_compile \
+            engine/generate_blueprints_v10.py \
+            engine/build_registry_v10.py \
+            engine/generate_workers_v10.py \
+            engine/generate_scouts_v10.py \
+            engine/generate_jobs_v10.py \
+            engine/coordinator_v10.py \
+            engine/scout_cycle_v10.py
+
+      - name: Validate policy
+        run: |
+          python - <<'PY'
+          import json
+
+          p=json.load(open("config/v10-policy.json"))
+
+          assert p["maximum_active_execution_jobs"] == 1
+          assert p["automatic_merge"] is False
+          assert p["direct_main_changes"] is False
+          assert p["blind_ai_shell_execution"] is False
+          assert p["owner_kill_switch_required"] is True
+
+          print("V10 policy PASS")
+          PY
+
+      - name: Validate worker pools
+        run: |
+          python - <<'PY'
+          import json
+
+          workers=json.load(open("config/workers-200-v10.json"))
+          scouts=json.load(open("config/scouts-100-v10.json"))
+          jobs=json.load(open("config/priority-jobs-50-v10.json"))
+
+          assert len(workers["workers"]) == 200
+          assert len(scouts["scouts"]) == 100
+          assert len(jobs["jobs"]) == 50
+
+          print("Worker pools PASS")
+          PY
+
+      - name: Canonical registry
+        run: |
+          python engine/build_registry_v10.py
+
+          python - <<'PY'
+          import json
+
+          d=json.load(open("config/blueprints.json"))
+
+          ids=[int(x["id"]) for x in d["blueprints"]]
+
+          assert ids == list(range(1,301))
+          assert len(set(ids)) == 300
+
+          print("Canonical 300 blueprint registry PASS")
+          PY
+
+      - name: Shell syntax
+        run: |
+          bash -n \
+            scripts/autonomous-v10.sh \
+            scripts/tgpt-v10.sh \
+            scripts/stop-v10.sh \
+            scripts/start-v10.sh
+
+      - name: Secret patterns
+        run: |
+          if grep -REn \
+            'github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|BEGIN .*PRIVATE KEY' \
+            --exclude-dir=.git \
+            . ; then
+
+            echo "Potential secret detected"
+            exit 1
+
+          fi
+
+      - name: Summary
+        run: |
+          echo "V10 validation complete"
+          echo "300 canonical blueprints"
+          echo "200 worker profiles"
+          echo "100 scout profiles"
+          echo "50 priority job archetypes"
+          echo "owner kill switch required"
+          echo "no automatic merge"
