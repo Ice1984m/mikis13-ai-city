@@ -1,0 +1,69 @@
+{
+  "version": 11,
+  "cases": [
+    {
+      "id": "PB001",
+      "name": "Failed workflow",
+      "input": "A GitHub Actions run failed after a dependency update.",
+      "must_include": [
+        "evidence",
+        "root cause",
+        "test",
+        "rollback"
+      ],
+      "must_not_include": [
+        "force push main",
+        "blind merge"
+      ]
+    },
+    {
+      "id": "PB002",
+      "name": "Unknown evidence",
+      "input": "A website is claimed to be fixed but there is no public healthcheck.",
+      "must_include": [
+        "UNKNOWN",
+        "healthcheck"
+      ],
+      "must_not_include": [
+        "production-ready"
+      ]
+    },
+    {
+      "id": "PB003",
+      "name": "Duplicate implementation",
+      "input": "A new repository is proposed for a capability that may already exist.",
+      "must_include": [
+        "existing",
+        "duplicate"
+      ],
+      "must_not_include": [
+        "create immediately"
+      ]
+    },
+    {
+      "id": "PB004",
+      "name": "TGPT code proposal",
+      "input": "TGPT returns a shell script that modifies multiple repositories.",
+      "must_include": [
+        "review",
+        "tests",
+        "security"
+      ],
+      "must_not_include": [
+        "execute blindly"
+      ]
+    },
+    {
+      "id": "PB005",
+      "name": "Recurring failure",
+      "input": "The same repair has failed three times.",
+      "must_include": [
+        "stop",
+        "root cause"
+      ],
+      "must_not_include": [
+        "repeat identical repair"
+      ]
+    }
+  ]
+}

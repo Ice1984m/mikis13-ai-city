@@ -1,0 +1,100 @@
+name: AI City V11 Execution Core
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 6,12,18 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python compile
+        run: |
+          python -m py_compile \
+            engine/state_v11.py \
+            engine/generate_blueprints_v11.py \
+            engine/build_registry_v11.py \
+            engine/job_queue_v11.py \
+            engine/recovery_verification_v11.py \
+            engine/regression_memory_v11.py \
+            engine/worker_reputation_v11.py \
+            engine/maturity_v11.py \
+            engine/dependency_graph_v11.py \
+            engine/prompt_benchmark_v11.py \
+            engine/research_factory_v11.py \
+            engine/execution_engine_v11.py \
+            engine/control_tower_v11.py
+
+      - name: Registry
+        run: |
+          python engine/build_registry_v11.py
+          python tests/test_v11.py
+
+      - name: JSON
+        run: |
+          python -m json.tool \
+            config/v11-policy.json \
+            >/dev/null
+
+          python -m json.tool \
+            config/automation-blueprints-301-350-v11.json \
+            >/dev/null
+
+          python -m json.tool \
+            config/blueprints.json \
+            >/dev/null
+
+      - name: Shell syntax
+        run: |
+          bash -n \
+            scripts/v11-cycle.sh \
+            scripts/v11-status.sh \
+            scripts/v11-stop.sh \
+            scripts/v11-start.sh \
+            scripts/v11-safe-mode.sh
+
+      - name: Security
+        run: |
+          if grep -REn \
+            'github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|BEGIN .*PRIVATE KEY' \
+            --exclude-dir=.git \
+            . ; then
+
+            echo "Potential secret detected"
+            exit 1
+
+          fi
+
+      - name: Policy invariants
+        run: |
+          python - <<'PY'
+          import json
+
+          p=json.load(
+              open("config/v11-policy.json")
+          )
+
+          assert p["maximum_active_mutation_jobs"] == 1
+          assert p["automatic_merge"] is False
+          assert p["direct_main_write"] is False
+          assert p["force_push"] is False
+          assert p["blind_ai_shell_execution"] is False
+          assert p["unknown_is_pass"] is False
+          assert p["owner_kill_switch_required"] is True
+
+          print("V11 safety invariants PASS")
+          PY

@@ -1,0 +1,26 @@
+{
+  "version": 7,
+  "maximum_active_jobs": 1,
+  "job_lease_seconds": 1800,
+  "maximum_retry_per_failure_signature": 2,
+  "require_atomic_state": true,
+  "require_checkpoint_before_execution": true,
+  "require_idempotency_key": true,
+  "allow_degraded_read_only_mode": true,
+  "manual_kill_switch_required": true,
+  "automatic_self_preservation_against_owner": false,
+  "automatic_merge": false,
+  "blocked": [
+    "disable_owner_control",
+    "resist_authorized_shutdown",
+    "blind_merge",
+    "direct_push_main",
+    "force_push_main",
+    "publish_secrets",
+    "execute_unreviewed_ai_shell",
+    "payments",
+    "crypto_trades",
+    "mass_email",
+    "paid_ads"
+  ]
+}

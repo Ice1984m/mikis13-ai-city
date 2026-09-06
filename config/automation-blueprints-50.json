@@ -1,0 +1,457 @@
+{
+  "version": 6,
+  "count": 50,
+  "principle": "One important execution at a time. Reuse before creation.",
+  "blueprints": [
+    {
+      "id": 1,
+      "name": "Repo Health Sweep",
+      "owner": "Monitor Worker",
+      "goal": "Inventory repository health and stale automation",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 2,
+      "name": "Failed Actions Triage",
+      "owner": "Repair Worker",
+      "goal": "Rank failed workflows by reproducibility and impact",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 3,
+      "name": "Deployment Recovery",
+      "owner": "Reliability Worker",
+      "goal": "Repair broken deployment pipelines on bot branches",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 4,
+      "name": "Dependency Patch Queue",
+      "owner": "Dependency Worker",
+      "goal": "Group safe patch and minor updates",
+      "gate": "security",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 5,
+      "name": "Major Upgrade Isolation",
+      "owner": "Architecture Worker",
+      "goal": "Separate breaking upgrades from security fixes",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 6,
+      "name": "Duplicate PR Detector",
+      "owner": "Coordinator",
+      "goal": "Find overlapping PRs before new work",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 7,
+      "name": "Duplicate Repo Detector",
+      "owner": "Project Librarian",
+      "goal": "Score repository overlap and consolidation candidates",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 8,
+      "name": "Failure Memory",
+      "owner": "Failure Analyst",
+      "goal": "Store failure signatures, fixes and recurrence",
+      "gate": "learning",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 9,
+      "name": "Success Pattern Memory",
+      "owner": "Learning Officer",
+      "goal": "Record durable fixes and increase future weight",
+      "gate": "learning",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 10,
+      "name": "Prompt Quality Audit",
+      "owner": "Prompt Engineer",
+      "goal": "Detect vague evidence and inflated confidence",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 11,
+      "name": "Prompt A-B Bench",
+      "owner": "Prompt Engineer",
+      "goal": "Compare prompts on fixed benchmark tasks",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 12,
+      "name": "Council Fast Path",
+      "owner": "Orion",
+      "goal": "Skip unnecessary debate when consensus is strong",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 13,
+      "name": "Council Dissent Gate",
+      "owner": "Vega",
+      "goal": "Trigger only one meaningful challenge round",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 14,
+      "name": "Jury Blind Review",
+      "owner": "Jury",
+      "goal": "Score anonymized proposals to reduce bias",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 15,
+      "name": "One Task Lock",
+      "owner": "Coordinator",
+      "goal": "Prevent conflicting parallel execution",
+      "gate": "lock",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 16,
+      "name": "Worker Assignment",
+      "owner": "Orion",
+      "goal": "Assign only relevant workers to one selected task",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 17,
+      "name": "Worker Result Contract",
+      "owner": "Testing Worker",
+      "goal": "Require claim evidence risk test and result",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 18,
+      "name": "Security Veto Evidence",
+      "owner": "Security Guardian",
+      "goal": "Require concrete FAIL or UNKNOWN for veto",
+      "gate": "security",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 19,
+      "name": "Healthcheck Registry",
+      "owner": "Reliability Worker",
+      "goal": "Map repositories to relevant runtime healthchecks",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 20,
+      "name": "Rollback Registry",
+      "owner": "Release Planner",
+      "goal": "Require rollback instructions for every implementation PR",
+      "gate": "rollback",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 21,
+      "name": "Bot Branch Guard",
+      "owner": "GitHub Coordinator",
+      "goal": "Block functional writes directly to main",
+      "gate": "git",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 22,
+      "name": "Secret Scan Guard",
+      "owner": "Security Guardian",
+      "goal": "Detect likely credentials in changes",
+      "gate": "security",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 23,
+      "name": "Workflow Permission Audit",
+      "owner": "Security Guardian",
+      "goal": "Detect overly broad Actions permissions",
+      "gate": "security",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 24,
+      "name": "Workflow Rerun Policy",
+      "owner": "Repair Worker",
+      "goal": "Bound retries for reproducible transient failures",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 25,
+      "name": "Stuck Job Detector",
+      "owner": "Monitor Worker",
+      "goal": "Flag abnormally long or repeatedly cancelled jobs",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 26,
+      "name": "Website Link Audit",
+      "owner": "Website Worker",
+      "goal": "Detect missing pages href and src failures",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 27,
+      "name": "Custom Domain TLS Check",
+      "owner": "Hosting Worker",
+      "goal": "Verify apex and www HTTPS certificate and redirects",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 28,
+      "name": "GitHub Pages State Check",
+      "owner": "Hosting Worker",
+      "goal": "Compare Pages config CNAME and deployment",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 29,
+      "name": "Public Claim Verifier",
+      "owner": "Reality Juror",
+      "goal": "Require proof for public website claims",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 30,
+      "name": "LAB Promotion Gate",
+      "owner": "Creative Director",
+      "goal": "Mark unfinished work honestly as LAB or beta",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 31,
+      "name": "Project Maturity Score",
+      "owner": "Project Librarian",
+      "goal": "Score testing deployment activity and value",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 32,
+      "name": "Archive Candidate Review",
+      "owner": "Project Librarian",
+      "goal": "Find duplicate low-value repos for manual review",
+      "gate": "approval",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 33,
+      "name": "Open Source Reuse Scout",
+      "owner": "Research Scout",
+      "goal": "Search reusable solutions before creating code",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 34,
+      "name": "Innovation Candidate Score",
+      "owner": "Inventor",
+      "goal": "Score value novelty feasibility demand and validation",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 35,
+      "name": "Smallest Prototype Builder",
+      "owner": "Prototype Designer",
+      "goal": "Build bounded prototypes before large systems",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 36,
+      "name": "Experiment Metric Gate",
+      "owner": "Value Juror",
+      "goal": "Require baseline target and actual result",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 37,
+      "name": "Actual vs Expected Learning",
+      "owner": "Learning Officer",
+      "goal": "Compare predicted and measured impact",
+      "gate": "learning",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 38,
+      "name": "Role Accuracy Weighting",
+      "owner": "Learning Officer",
+      "goal": "Weight roles from historical recommendation accuracy",
+      "gate": "learning",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 39,
+      "name": "TGPT Optional Worker",
+      "owner": "Local AI Worker",
+      "goal": "Use tgpt only when installed and available",
+      "gate": "local",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 40,
+      "name": "TGPT Code Review",
+      "owner": "Local AI Worker",
+      "goal": "Request bounded code review without auto-running generated shell",
+      "gate": "security",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 41,
+      "name": "Provider Circuit Breaker",
+      "owner": "Reliability Worker",
+      "goal": "Disable failing providers after bounded failures",
+      "gate": "budget",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 42,
+      "name": "Zero Paid Spend Policy",
+      "owner": "Orion",
+      "goal": "Keep paid AI calls disabled without approval",
+      "gate": "approval",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 43,
+      "name": "Provider Response Normalizer",
+      "owner": "Integration Inventor",
+      "goal": "Normalize provider output into evidence schema",
+      "gate": "tests",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 44,
+      "name": "Local Model Adapter",
+      "owner": "Integration Inventor",
+      "goal": "Support local models without secrets in Git",
+      "gate": "local",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 45,
+      "name": "Council Job Queue",
+      "owner": "Orion",
+      "goal": "Persist NEW ACTIVE BLOCKED DONE task states",
+      "gate": "lock",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 46,
+      "name": "Worker Heartbeat",
+      "owner": "Monitor Worker",
+      "goal": "Track last successful cycle and stale workers",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 47,
+      "name": "Daily Evolution Report",
+      "owner": "Documentation Archivist",
+      "goal": "Generate evidence-based progress report",
+      "gate": "evidence",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 48,
+      "name": "Service Audit Product",
+      "owner": "Business Analyst",
+      "goal": "Turn verified health reports into service blueprint",
+      "gate": "approval",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 49,
+      "name": "Website AI City Status Page",
+      "owner": "Website Worker",
+      "goal": "Publish public-safe LAB status and architecture",
+      "gate": "healthcheck",
+      "status": "PLANNED",
+      "new_repository_required": false
+    },
+    {
+      "id": 50,
+      "name": "Self Improvement Review",
+      "owner": "Astra",
+      "goal": "Every ten cycles assess helpful harmful and duplicate automation",
+      "gate": "learning",
+      "status": "PLANNED",
+      "new_repository_required": false
+    }
+  ]
+}

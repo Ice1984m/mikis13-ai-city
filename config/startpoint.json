@@ -1,0 +1,35 @@
+{
+  "version": 4,
+
+  "system": "Mikis13 AI City",
+
+  "stage": "FOUNDATION",
+
+  "objective": "Create a coordinated AI engineering society that becomes more effective from measured outcomes.",
+
+  "current_priorities": [
+    "repository stability",
+    "repair automation",
+    "task deduplication",
+    "evidence quality",
+    "successful experiments",
+    "learning from completed work"
+  ],
+
+  "growth_model": {
+    "more_bots_is_not_intelligence": true,
+    "successful_results_increase_weight": true,
+    "repeated_failures_reduce_weight": true,
+    "discussion_is_bounded": true,
+    "tests_are_evidence": true
+  },
+
+  "levels": [
+    "FOUNDATION",
+    "COORDINATED",
+    "RELIABLE",
+    "LEARNING",
+    "ADAPTIVE",
+    "OPTIMIZED"
+  ]
+}

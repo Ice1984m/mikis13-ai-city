@@ -1,0 +1,62 @@
+name: AI City V6 Validation Cycle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 6,12,18 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile
+        run: |
+          python -m py_compile \
+            engine/job_dispatcher_v6.py \
+            engine/worker_assignment_v6.py \
+            engine/heartbeat_v6.py
+
+      - name: Policy
+        run: |
+          python - <<'PY'
+          import json
+          p=json.load(open("config/v6-policy.json"))
+          b=json.load(open("config/automation-blueprints-50.json"))
+          assert p["maximum_active_jobs"] == 1
+          assert p["external_paid_calls"] == 0
+          assert len(b["blueprints"]) == 50
+          print("V6 policy PASS")
+          PY
+
+      - name: Shell syntax
+        run: |
+          bash -n \
+            scripts/autonomous-v6.sh \
+            workers/tgpt-worker-v6.sh
+
+      - name: Secret patterns
+        run: |
+          if grep -REn \
+            'github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|BEGIN .*PRIVATE KEY' \
+            --exclude-dir=.git \
+            . ; then
+              echo "Potential secret detected"
+              exit 1
+          fi
+
+      - name: Summary
+        run: |
+          echo "AI City V6 validation complete"
+          echo "50 automation blueprints present"
+          echo "No automatic merge"
+          echo "No paid provider calls"

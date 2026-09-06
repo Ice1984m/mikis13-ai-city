@@ -1,0 +1,71 @@
+{
+  "version": 11,
+  "name": "Mikis13 AI City Execution Core",
+  "mission": "Convert evidence-backed plans into bounded, testable, recoverable engineering outcomes.",
+  "maximum_active_mutation_jobs": 1,
+  "maximum_active_read_only_jobs": 12,
+  "maximum_engineering_workers": 6,
+  "maximum_scout_workers": 12,
+  "maximum_tgpt_calls_per_cycle": 4,
+  "maximum_identical_failure_attempts": 2,
+  "job_lease_seconds": 1800,
+  "checkpoint_before_mutation": true,
+  "atomic_state_required": true,
+  "idempotency_required": true,
+  "execution_requires_known_repository": true,
+  "existing_repository_first": true,
+  "automatic_new_repository_creation": false,
+  "automatic_merge": false,
+  "direct_main_write": false,
+  "force_push": false,
+  "blind_ai_shell_execution": false,
+  "unknown_is_pass": false,
+  "owner_kill_switch_required": true,
+  "owner_can_stop_immediately": true,
+  "system_may_resist_owner_shutdown": false,
+  "paid_provider_calls": false,
+  "mass_email": false,
+  "paid_ads": false,
+  "payments": false,
+  "purchases": false,
+  "crypto_trade_or_withdrawal": false,
+  "production_delete": false,
+  "required_gates_before_mutation": [
+    "evidence",
+    "duplicate_check",
+    "repository_scope",
+    "rollback_plan"
+  ],
+  "required_gates_before_pr": [
+    "tests",
+    "security",
+    "healthcheck",
+    "diff_check"
+  ],
+  "required_gates_before_merge": [
+    "tests_pass",
+    "security_pass",
+    "healthcheck_pass",
+    "recovery_verification_pass",
+    "no_blocking_unknown"
+  ],
+  "maturity_states": [
+    "IDEA",
+    "PLANNED",
+    "PROTOTYPE",
+    "TESTED",
+    "VERIFIED",
+    "DEPLOYED",
+    "PROVEN",
+    "PAUSED",
+    "RETIRED"
+  ],
+  "evidence_states": [
+    "PROVEN",
+    "STRONG",
+    "MODERATE",
+    "WEAK",
+    "UNKNOWN"
+  ],
+  "default_execution_mode": "DRY_RUN"
+}
