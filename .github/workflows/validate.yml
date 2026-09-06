@@ -1,0 +1,45 @@
+name: Validate AI City
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON
+        run: |
+          python -m json.tool config/organization.json >/dev/null
+          python -m json.tool config/providers.json >/dev/null
+
+      - name: Compile Python
+        run: |
+          python -m py_compile engine/*.py
+
+      - name: Shell syntax
+        run: |
+          bash -n scripts/*.sh
+
+      - name: Safety policy
+        run: |
+          python - <<'PY'
+          import json
+          org=json.load(open("config/organization.json"))
+          providers=json.load(open("config/providers.json"))
+          assert org["execution"]["automatic_merge"] is False
+          assert org["discussion"]["maximum_rounds"] <= 2
+          assert providers["maximum_external_calls_per_cycle"] == 0
+          print("✅ policy PASS")
+          PY

@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "name": "Mikis13 AI City",
+
+  "leadership": {
+    "astra": {
+      "title": "Supreme Judge",
+      "weight": 1.6,
+      "can_execute": false
+    },
+    "orion": {
+      "title": "Chief Coordinator / Right Hand",
+      "weight": 1.35,
+      "can_execute": false
+    },
+    "vega": {
+      "title": "Independent Second Judge",
+      "weight": 1.45,
+      "can_execute": false
+    }
+  },
+
+  "jury": [
+    "Logic Juror",
+    "Risk Juror",
+    "Value Juror",
+    "Efficiency Juror",
+    "Reality Juror"
+  ],
+
+  "guilds": {
+    "engineering": [
+      "System Architect",
+      "Backend Engineer",
+      "Frontend Engineer",
+      "DevOps Engineer",
+      "Testing Engineer",
+      "Reliability Engineer"
+    ],
+    "invention": [
+      "Inventor",
+      "Prototype Designer",
+      "Integration Inventor",
+      "Automation Inventor"
+    ],
+    "creative": [
+      "Creative Director",
+      "Product Designer",
+      "UX Thinker",
+      "Story Designer"
+    ],
+    "research": [
+      "Research Scout",
+      "Open Source Scout",
+      "Technology Scout"
+    ],
+    "learning": [
+      "Failure Analyst",
+      "Success Pattern Analyst",
+      "Prompt Engineer"
+    ],
+    "safety": [
+      "Security Guardian",
+      "Privacy Guardian",
+      "Test Guardian"
+    ],
+    "business": [
+      "Problem Discovery Analyst",
+      "Market Reality Analyst",
+      "Revenue Model Analyst"
+    ]
+  },
+
+  "discussion": {
+    "maximum_rounds": 2,
+    "force_decision_after_max_rounds": true
+  },
+
+  "execution": {
+    "maximum_active_projects": 1,
+    "bot_branch_only": true,
+    "tests_required": true,
+    "security_scan_required": true,
+    "healthcheck_required": true,
+    "rollback_plan_required": true,
+    "automatic_merge": false
+  }
+}
