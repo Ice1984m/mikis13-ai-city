@@ -1,0 +1,38 @@
+{
+  "version": 13,
+  "name": "Mikis13 AI City Global Federation",
+  "default_mode": "READ_ONLY",
+  "mutation_enabled": false,
+  "automatic_merge": false,
+  "direct_main_write": false,
+  "force_push": false,
+  "paid_execution": false,
+  "paid_ai": false,
+  "payments": false,
+  "crypto_trade_or_withdrawal": false,
+  "production_delete": false,
+  "unknown_is_pass": false,
+  "owner_stop_required": true,
+  "max_attempts": 2,
+  "lease_seconds": 300,
+  "command_timeout_seconds": 90,
+  "max_stdout_bytes": 20000,
+  "max_stderr_bytes": 10000,
+  "allowed_github_owner": "Ice1984m",
+  "http_allow_hosts": [
+    "mikis13.nl",
+    "www.mikis13.nl",
+    "github.com",
+    "api.github.com"
+  ],
+  "safe_capabilities": [
+    "git-status",
+    "git-diff-check",
+    "shell-syntax",
+    "json-validate",
+    "file-sha256",
+    "http-health",
+    "gh-pr-view",
+    "gh-run-list"
+  ]
+}

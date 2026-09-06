@@ -1,0 +1,9 @@
+{
+  "version": 13,
+  "regions": [
+    {"id": "EU", "configured": false, "provider": null, "endpoint": null},
+    {"id": "US", "configured": false, "provider": null, "endpoint": null},
+    {"id": "ASIA", "configured": false, "provider": null, "endpoint": null}
+  ],
+  "note": "Geographic regions stay disabled until a real node/provider is explicitly configured. GitHub-hosted runners are not treated as guaranteed geographic probes."
+}
