@@ -4,67 +4,76 @@ from pathlib import Path
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
+CFG = ROOT / "config"
 
-registry_file = ROOT / "config" / "blueprints.json"
-v11_file = (
-    ROOT
-    / "config"
-    / "automation-blueprints-301-350-v11.json"
-)
+def read(path):
+    p = CFG / path
+    if not p.exists():
+        return []
+    return json.loads(
+        p.read_text(encoding="utf-8")
+    ).get("blueprints", [])
 
-if not registry_file.exists():
-    raise SystemExit(
-        "❌ V10 canonical registry ontbreekt"
-    )
+existing = CFG / "blueprints.json"
 
-registry = json.loads(
-    registry_file.read_text()
-)
+canonical = {}
 
-old = {
-    int(x["id"]): x
-    for x in registry["blueprints"]
-}
+if existing.exists():
+    old = json.loads(existing.read_text())
+    for item in old.get("blueprints", []):
+        canonical[int(item["id"])] = item
 
-if len(old) != 300:
-    raise SystemExit(
-        f"❌ Verwacht 300 V10 blueprints, gevonden {len(old)}"
-    )
-
-v11 = json.loads(
-    v11_file.read_text()
-)
-
-for item in v11["blueprints"]:
+for item in read("automation-blueprints-301-350-v11.json"):
     row = dict(item)
     row["canonical_source"] = "V11"
-    old[int(row["id"])] = row
+    canonical[int(row["id"])] = row
 
 missing = [
-    x
-    for x in range(1, 351)
-    if x not in old
+    i
+    for i in range(1,351)
+    if i not in canonical
 ]
 
 if missing:
     raise SystemExit(
-        f"❌ Ontbrekende IDs: {missing}"
+        "❌ Canonical registry mist IDs: "
+        + ",".join(map(str,missing[:50]))
     )
 
 items = [
-    old[x]
-    for x in range(1, 351)
+    canonical[i]
+    for i in range(1,351)
 ]
+
+names = {}
+duplicate_names = []
+
+for row in items:
+    key = row["name"].strip().casefold()
+
+    if key in names:
+        duplicate_names.append({
+            "name": row["name"],
+            "ids": [
+                names[key],
+                int(row["id"])
+            ]
+        })
+    else:
+        names[key] = int(row["id"])
 
 result = {
     "version": 11,
-    "canonical_count": 350,
+    "canonical_count": len(items),
     "canonical_range": "1-350",
+    "duplicate_names": duplicate_names,
     "blueprints": items
 }
 
-registry_file.write_text(
-    json.dumps(result, indent=2) + "\n"
+existing.write_text(
+    json.dumps(result, indent=2) + "\n",
+    encoding="utf-8"
 )
 
-print("✅ Canonical registry = 350")
+print("✅ Canonical blueprint registry:", len(items))
+print("Duplicate names:", len(duplicate_names))

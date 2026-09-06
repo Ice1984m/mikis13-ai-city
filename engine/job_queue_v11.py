@@ -1,25 +1,36 @@
 #!/usr/bin/env python3
 
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
 import argparse
 import hashlib
 import json
 import uuid
 
 from state_v11 import (
+    ROOT,
     STATE,
     atomic_json,
-    read_json,
-    now
+    load_json,
+    utcnow
 )
 
-QUEUE = (
-    STATE
-    / "jobs"
-    / "queue.json"
-)
+QUEUE = STATE / "jobs" / "queue.json"
+ACTIVE = STATE / "jobs" / "active.json"
 
-def load():
-    return read_json(
+VALID_STATES = {
+    "NEW",
+    "EVIDENCE_READY",
+    "READY",
+    "ACTIVE",
+    "BLOCKED",
+    "VERIFIED",
+    "FAILED",
+    "CLOSED"
+}
+
+def queue():
+    return load_json(
         QUEUE,
         {
             "version": 11,
@@ -27,93 +38,84 @@ def load():
         }
     )
 
-def fingerprint(repo, problem, blueprint):
+def fingerprint(repository, problem, blueprint_id):
     raw = (
-        repo.lower()
+        repository.strip().lower()
         + "|"
-        + problem.lower()
+        + problem.strip().lower()
         + "|"
-        + str(blueprint)
+        + str(blueprint_id)
     )
 
     return hashlib.sha256(
         raw.encode()
     ).hexdigest()[:24]
 
-def add(args):
-    data = load()
+def create_job(
+    repository,
+    problem,
+    blueprint_id,
+    evidence_strength="UNKNOWN",
+    priority=50
+):
+    data = queue()
 
     fp = fingerprint(
-        args.repo,
-        args.problem,
-        args.blueprint
+        repository,
+        problem,
+        blueprint_id
     )
 
-    for job in data["jobs"]:
+    active_states = {
+        "NEW",
+        "EVIDENCE_READY",
+        "READY",
+        "ACTIVE",
+        "BLOCKED"
+    }
 
+    for job in data["jobs"]:
         if (
             job["fingerprint"] == fp
-            and job["state"]
-            not in {
-                "FAILED",
-                "VERIFIED",
-                "CLOSED"
-            }
+            and job["state"] in active_states
         ):
             print(
-                json.dumps({
-                    "status": "DUPLICATE",
-                    "job": job
-                }, indent=2)
+                json.dumps(
+                    {
+                        "status": "DUPLICATE",
+                        "job": job
+                    },
+                    indent=2
+                )
             )
-
-            return
+            return job
 
     job = {
-        "job_id":
-            "JOB-"
-            + uuid.uuid4().hex[:12],
-
+        "job_id": "JOB-" + uuid.uuid4().hex[:12],
         "fingerprint": fp,
-        "repository": args.repo,
-        "problem": args.problem,
-        "blueprint_id": args.blueprint,
-        "priority": args.priority,
-
-        "evidence":
-            args.evidence,
-
-        "state":
+        "repository": repository,
+        "problem": problem,
+        "blueprint_id": int(blueprint_id),
+        "state": (
             "EVIDENCE_READY"
-            if args.evidence != "UNKNOWN"
-            else "NEW",
-
-        "created_at": now(),
-
+            if evidence_strength != "UNKNOWN"
+            else "NEW"
+        ),
+        "evidence_strength": evidence_strength,
+        "priority": int(priority),
+        "created_at": utcnow(),
+        "updated_at": utcnow(),
+        "attempts": 0,
+        "lease": None,
         "gates": {
-            "evidence":
-                args.evidence != "UNKNOWN",
-
-            "duplicate_check":
-                True,
-
-            "repository_scope":
-                True,
-
-            "rollback_plan":
-                False,
-
-            "tests":
-                "UNKNOWN",
-
-            "security":
-                "UNKNOWN",
-
-            "healthcheck":
-                "UNKNOWN",
-
-            "recovery_verification":
-                "UNKNOWN"
+            "evidence": evidence_strength != "UNKNOWN",
+            "duplicate_check": True,
+            "repository_scope": bool(repository),
+            "rollback_plan": False,
+            "tests": "UNKNOWN",
+            "security": "UNKNOWN",
+            "healthcheck": "UNKNOWN",
+            "recovery_verification": "UNKNOWN"
         }
     }
 
@@ -126,60 +128,191 @@ def add(args):
 
     print(
         json.dumps(
-            job,
+            {
+                "status": "CREATED",
+                "job": job
+            },
             indent=2
         )
     )
+
+    return job
+
+def refresh_states(data):
+    for job in data["jobs"]:
+
+        if job["state"] in {
+            "VERIFIED",
+            "FAILED",
+            "CLOSED"
+        }:
+            continue
+
+        lease = job.get("lease")
+
+        if lease:
+            expires = datetime.fromisoformat(
+                lease["expires_at"]
+            )
+
+            if expires < datetime.now(timezone.utc):
+                job["lease"] = None
+
+                if job["state"] == "ACTIVE":
+                    job["state"] = "READY"
+
+        gates = job["gates"]
+
+        if (
+            gates["evidence"]
+            and gates["duplicate_check"]
+            and gates["repository_scope"]
+            and gates["rollback_plan"]
+            and job["state"] not in {
+                "ACTIVE",
+                "BLOCKED"
+            }
+        ):
+            job["state"] = "READY"
+
+        elif (
+            gates["evidence"]
+            and job["state"] == "NEW"
+        ):
+            job["state"] = "EVIDENCE_READY"
+
+def claim():
+    data = queue()
+    refresh_states(data)
+
+    already = [
+        j for j in data["jobs"]
+        if j["state"] == "ACTIVE"
+    ]
+
+    if already:
+        print(
+            json.dumps({
+                "status": "BUSY",
+                "active_job": already[0]
+            }, indent=2)
+        )
+
+        atomic_json(
+            QUEUE,
+            data
+        )
+
+        return None
+
+    candidates = [
+        j for j in data["jobs"]
+        if j["state"] == "READY"
+    ]
+
+    if not candidates:
+        print(
+            json.dumps({
+                "status": "NO_READY_JOB"
+            })
+        )
+
+        atomic_json(
+            QUEUE,
+            data
+        )
+
+        return None
+
+    candidates.sort(
+        key=lambda x: (
+            x["priority"],
+            x["created_at"]
+        ),
+        reverse=True
+    )
+
+    job = candidates[0]
+
+    now = datetime.now(timezone.utc)
+
+    job["lease"] = {
+        "claimed_at": now.isoformat(),
+        "expires_at": (
+            now + timedelta(seconds=1800)
+        ).isoformat()
+    }
+
+    job["state"] = "ACTIVE"
+    job["updated_at"] = utcnow()
+
+    atomic_json(
+        QUEUE,
+        data
+    )
+
+    atomic_json(
+        ACTIVE,
+        job
+    )
+
+    print(
+        json.dumps({
+            "status": "CLAIMED",
+            "job": job
+        }, indent=2)
+    )
+
+    return job
 
 def show():
+    data = queue()
+    refresh_states(data)
+
+    atomic_json(
+        QUEUE,
+        data
+    )
+
     print(
         json.dumps(
-            load(),
+            data,
             indent=2
         )
     )
 
-parser = argparse.ArgumentParser()
+if __name__ == "__main__":
 
-sub = parser.add_subparsers(
-    dest="cmd",
-    required=True
-)
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(
+        dest="cmd",
+        required=True
+    )
 
-a = sub.add_parser("add")
+    add = sub.add_parser("add")
 
-a.add_argument(
-    "--repo",
-    required=True
-)
+    add.add_argument("--repo", required=True)
+    add.add_argument("--problem", required=True)
+    add.add_argument("--blueprint", type=int, required=True)
+    add.add_argument("--evidence", default="UNKNOWN")
+    add.add_argument("--priority", type=int, default=50)
 
-a.add_argument(
-    "--problem",
-    required=True
-)
+    sub.add_parser("claim")
+    sub.add_parser("show")
 
-a.add_argument(
-    "--blueprint",
-    type=int,
-    required=True
-)
+    args = parser.parse_args()
 
-a.add_argument(
-    "--evidence",
-    default="UNKNOWN"
-)
+    if args.cmd == "add":
+        create_job(
+            args.repo,
+            args.problem,
+            args.blueprint,
+            args.evidence,
+            args.priority
+        )
 
-a.add_argument(
-    "--priority",
-    type=int,
-    default=50
-)
+    elif args.cmd == "claim":
+        claim()
 
-sub.add_parser("show")
-
-args = parser.parse_args()
-
-if args.cmd == "add":
-    add(args)
-else:
-    show()
+    else:
+        show()

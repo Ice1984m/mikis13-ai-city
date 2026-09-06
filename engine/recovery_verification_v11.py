@@ -1,83 +1,101 @@
 #!/usr/bin/env python3
 
-import argparse
-import subprocess
-import json
-
 from pathlib import Path
+from datetime import datetime, timezone
+import argparse
+import json
+import subprocess
 
 from state_v11 import (
     STATE,
     atomic_json,
-    now
+    utcnow
 )
 
-parser = argparse.ArgumentParser()
+OUT = STATE / "recovery"
 
-parser.add_argument(
-    "--job",
-    required=True
-)
-
-parser.add_argument(
-    "--type",
-    required=True,
-    choices=[
-        "file-exists",
-        "http-status",
-        "git-clean"
-    ]
-)
-
-parser.add_argument(
-    "--target",
-    required=True
-)
-
-parser.add_argument(
-    "--expected",
-    default="200"
-)
-
-args = parser.parse_args()
-
-result = {
-    "job_id": args.job,
-    "type": args.type,
-    "target": args.target,
-    "checked_at": now(),
-    "pass": False
+SAFE_CHECKS = {
+    "command-exists",
+    "file-exists",
+    "http-status",
+    "git-clean",
+    "github-pr"
 }
 
-if args.type == "file-exists":
-
-    result["pass"] = (
-        Path(args.target).exists()
+def run_capture(cmd):
+    p = subprocess.run(
+        cmd,
+        text=True,
+        capture_output=True,
+        timeout=45
     )
 
-elif args.type == "git-clean":
+    return {
+        "returncode": p.returncode,
+        "stdout": p.stdout[-10000:],
+        "stderr": p.stderr[-10000:]
+    }
 
-    p = subprocess.run(
-        [
+def verify(args):
+
+    result = {
+        "job_id": args.job,
+        "check_type": args.type,
+        "target": args.target,
+        "expected": args.expected,
+        "observed_at": utcnow(),
+        "pass": False,
+        "evidence": {}
+    }
+
+    if args.type not in SAFE_CHECKS:
+        raise SystemExit(
+            "Unsupported verification type"
+        )
+
+    if args.type == "command-exists":
+        result["evidence"] = run_capture([
+            "sh",
+            "-lc",
+            "command -v \"$1\"",
+            "sh",
+            args.target
+        ])
+
+        result["pass"] = (
+            result["evidence"]["returncode"] == 0
+        )
+
+    elif args.type == "file-exists":
+        p = Path(args.target)
+
+        result["evidence"] = {
+            "exists": p.exists(),
+            "size": (
+                p.stat().st_size
+                if p.exists()
+                else None
+            )
+        }
+
+        result["pass"] = p.exists()
+
+    elif args.type == "git-clean":
+        result["evidence"] = run_capture([
             "git",
             "-C",
             args.target,
             "status",
             "--porcelain"
-        ],
-        text=True,
-        capture_output=True
-    )
+        ])
 
-    result["pass"] = (
-        p.returncode == 0
-        and not p.stdout.strip()
-    )
+        result["pass"] = (
+            result["evidence"]["returncode"] == 0
+            and not result["evidence"]["stdout"].strip()
+        )
 
-elif args.type == "http-status":
-
-    p = subprocess.run(
-        [
+    elif args.type == "http-status":
+        result["evidence"] = run_capture([
             "curl",
             "-L",
             "-sS",
@@ -90,37 +108,79 @@ elif args.type == "http-status":
             "--max-time",
             "20",
             args.target
-        ],
-        text=True,
-        capture_output=True
+        ])
+
+        observed = (
+            result["evidence"]["stdout"].strip()
+        )
+
+        result["pass"] = (
+            observed == str(args.expected)
+        )
+
+    elif args.type == "github-pr":
+        repo, number = args.target.split(
+            "#",
+            1
+        )
+
+        result["evidence"] = run_capture([
+            "gh",
+            "pr",
+            "view",
+            number,
+            "--repo",
+            repo,
+            "--json",
+            "state,mergeable,isDraft"
+        ])
+
+        result["pass"] = (
+            result["evidence"]["returncode"] == 0
+        )
+
+    out = OUT / f"{args.job}.json"
+
+    atomic_json(
+        out,
+        result
     )
 
-    result["observed"] = (
-        p.stdout.strip()
+    print(
+        json.dumps(
+            result,
+            indent=2
+        )
     )
 
-    result["pass"] = (
-        p.returncode == 0
-        and result["observed"]
-        == args.expected
+    if not result["pass"]:
+        raise SystemExit(2)
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--job",
+        required=True
     )
 
-atomic_json(
-    STATE
-    / "recovery"
-    / f"{args.job}.json",
-    result
-)
-
-print(
-    json.dumps(
-        result,
-        indent=2
+    parser.add_argument(
+        "--type",
+        required=True,
+        choices=sorted(SAFE_CHECKS)
     )
-)
 
-raise SystemExit(
-    0
-    if result["pass"]
-    else 2
-)
+    parser.add_argument(
+        "--target",
+        required=True
+    )
+
+    parser.add_argument(
+        "--expected",
+        default="200"
+    )
+
+    verify(
+        parser.parse_args()
+    )

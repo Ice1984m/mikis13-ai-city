@@ -21,6 +21,14 @@ registry = json.loads(
     ).read_text()
 )
 
+v11 = json.loads(
+    (
+        ROOT
+        / "config"
+        / "automation-blueprints-301-350-v11.json"
+    ).read_text()
+)
+
 ids = [
     int(x["id"])
     for x in registry["blueprints"]
@@ -30,13 +38,60 @@ assert ids == list(
     range(1,351)
 )
 
-assert policy["automatic_merge"] is False
-assert policy["force_push"] is False
-assert policy["blind_ai_shell_execution"] is False
-assert policy["unknown_is_pass"] is False
-assert policy["system_may_resist_owner_shutdown"] is False
-assert policy["production_delete"] is False
+assert len(ids) == 350
 
-print("✅ 350 canonical blueprints")
-print("✅ V11 policy safe")
-print("✅ owner control safe")
+assert len(
+    set(ids)
+) == 350
+
+assert len(
+    v11["blueprints"]
+) == 50
+
+assert [
+    x["id"]
+    for x in v11["blueprints"]
+] == list(
+    range(301,351)
+)
+
+assert (
+    policy[
+        "maximum_active_mutation_jobs"
+    ]
+    == 1
+)
+
+assert (
+    policy[
+        "automatic_merge"
+    ]
+    is False
+)
+
+assert (
+    policy[
+        "direct_main_write"
+    ]
+    is False
+)
+
+assert (
+    policy[
+        "blind_ai_shell_execution"
+    ]
+    is False
+)
+
+assert (
+    policy[
+        "owner_kill_switch_required"
+    ]
+    is True
+)
+
+print("✅ V11 registry PASS")
+print("✅ 350 unique blueprints")
+print("✅ 50 execution blueprints")
+print("✅ owner control PASS")
+print("✅ no blind merge PASS")

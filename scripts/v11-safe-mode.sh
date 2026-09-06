@@ -3,7 +3,9 @@ set -Eeuo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-rm -f \
-"$ROOT/state/v11/OWNER_STOP"
+mkdir -p "$ROOT/state/v11"
 
-echo "✅ V11 ENABLED"
+touch \
+"$ROOT/state/v11/SAFE_MODE"
+
+echo "🛡️ V11 SAFE_MODE ACTIVE"
