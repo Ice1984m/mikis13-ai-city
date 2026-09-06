@@ -1,0 +1,46 @@
+{
+  "version": 11,
+  "name": "Mikis13 AI City Execution Core",
+  "maximum_active_mutation_jobs": 1,
+  "maximum_read_only_workers": 12,
+  "existing_repository_first": true,
+  "automatic_new_repository_creation": false,
+  "automatic_merge": false,
+  "direct_main_write": false,
+  "force_push": false,
+  "blind_ai_shell_execution": false,
+  "unknown_is_pass": false,
+  "owner_kill_switch_required": true,
+  "owner_can_stop_immediately": true,
+  "system_may_resist_owner_shutdown": false,
+  "paid_provider_calls": false,
+  "paid_ads": false,
+  "payments": false,
+  "purchases": false,
+  "crypto_trade_or_withdrawal": false,
+  "production_delete": false,
+  "required_before_mutation": [
+    "evidence",
+    "duplicate_check",
+    "repository_scope",
+    "rollback_plan"
+  ],
+  "required_before_merge": [
+    "tests_pass",
+    "security_pass",
+    "healthcheck_pass",
+    "recovery_verification_pass",
+    "no_blocking_unknown"
+  ],
+  "maturity_states": [
+    "IDEA",
+    "PLANNED",
+    "PROTOTYPE",
+    "TESTED",
+    "VERIFIED",
+    "DEPLOYED",
+    "PROVEN",
+    "PAUSED",
+    "RETIRED"
+  ]
+}
