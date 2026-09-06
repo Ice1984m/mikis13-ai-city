@@ -1,0 +1,31 @@
+{
+  "default_provider": "internal",
+  "maximum_external_calls_per_cycle": 0,
+
+  "providers": {
+    "internal": {
+      "enabled": true,
+      "type": "local-rule-engine"
+    },
+    "openai": {
+      "enabled": false,
+      "secret_env": "OPENAI_API_KEY"
+    },
+    "anthropic": {
+      "enabled": false,
+      "secret_env": "ANTHROPIC_API_KEY"
+    },
+    "gemini": {
+      "enabled": false,
+      "secret_env": "GEMINI_API_KEY"
+    },
+    "deepseek": {
+      "enabled": false,
+      "secret_env": "DEEPSEEK_API_KEY"
+    },
+    "qwen_local": {
+      "enabled": false,
+      "type": "local"
+    }
+  }
+}
