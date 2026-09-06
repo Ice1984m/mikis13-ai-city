@@ -1,0 +1,31 @@
+{
+  "version": 6,
+  "maximum_active_jobs": 1,
+  "maximum_workers_per_job": 4,
+  "maximum_debate_rounds": 2,
+  "maximum_tgpt_calls_per_cycle": 3,
+  "external_paid_calls": 0,
+  "minimum_evidence_score": 65,
+  "minimum_quality_score": 70,
+  "required_gates": [
+    "duplicate_check",
+    "tests",
+    "security",
+    "healthcheck",
+    "rollback"
+  ],
+  "blocked": [
+    "direct_main_push",
+    "force_push_main",
+    "blind_merge",
+    "merge_red_checks",
+    "publish_secret",
+    "payments",
+    "purchases",
+    "paid_advertising",
+    "mass_email",
+    "crypto_trade",
+    "crypto_withdrawal",
+    "delete_production_data"
+  ]
+}
