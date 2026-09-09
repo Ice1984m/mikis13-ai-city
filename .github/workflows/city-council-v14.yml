@@ -1,6 +1,15 @@
 name: Mikis13 City Council V16
 
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/city-council-v14.yml"
+      - "config/**"
+      - "scripts/**"
+      - "tests/**"
+
   workflow_dispatch:
     inputs:
       dispatch_repair:
@@ -40,6 +49,7 @@ jobs:
           python scripts/virtual-worker.py 1000000
 
       - name: Run bounded autonomous council
+        if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.MIKIS13_REPO_TOKEN }}
           EVENT_NAME: ${{ github.event_name }}
@@ -60,7 +70,7 @@ jobs:
           fi
 
       - name: Record council decision
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         run: |
           python - <<'PY'
           import json
