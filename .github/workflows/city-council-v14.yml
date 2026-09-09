@@ -1,47 +1,110 @@
-name: Mikis13 City Council V14
+name: Mikis13 City Council V16
+
 on:
   workflow_dispatch:
     inputs:
       dispatch_repair:
-        description: Dispatch at most one existing allowlisted repair workflow
+        description: Dispatch maximaal één veilige reparatie
         type: boolean
         default: false
   schedule:
     - cron: "25 6,12,18 * * *"
+
 permissions:
   contents: read
   actions: read
+
 concurrency:
-  group: mikis13-city-council-v14
+  group: mikis13-city-council-v16
   cancel-in-progress: false
+
 jobs:
   council:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate registry and safety policy
-        run: python tests/test-v14.py
-      - name: Inspect repositories
-        env:
-          GH_TOKEN: ${{ secrets.MIKIS13_REPO_TOKEN }}
+
+      - name: Validate V14 and V16 safety
         run: |
           set -Eeuo pipefail
-          test -n "${GH_TOKEN:-}" || { echo 'MIKIS13_REPO_TOKEN is required'; exit 1; }
-          if [ "${{ inputs.dispatch_repair || false }}" = "true" ]; then
+          python tests/test-v14.py
+          python tests/test-v16.py
+          python -m py_compile             scripts/city-council-v14.py             scripts/virtual-worker.py             scripts/council-forum.py
+          python scripts/virtual-worker.py 1
+          python scripts/virtual-worker.py 1000000
+
+      - name: Run bounded autonomous council
+        env:
+          GH_TOKEN: ${{ secrets.MIKIS13_REPO_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_REPAIR: ${{ inputs.dispatch_repair || false }}
+        run: |
+          set -Eeuo pipefail
+
+          test -n "${GH_TOKEN:-}" || {
+            echo "MIKIS13_REPO_TOKEN ontbreekt"
+            exit 1
+          }
+
+          if [ "$EVENT_NAME" = "schedule" ] ||
+             [ "$MANUAL_REPAIR" = "true" ]; then
             python scripts/city-council-v14.py --dispatch
           else
             python scripts/city-council-v14.py
           fi
+
+      - name: Record council decision
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          report = Path("reports/city-council-latest.json")
+
+          if report.exists():
+              data = json.loads(report.read_text())
+              decision = data.get("decision", {})
+              action = decision.get("action", "unknown")
+              evidence = json.dumps({
+                  "repository_count": data.get("repository_count"),
+                  "eligible_repairs": data.get("eligible_repairs"),
+                  "decision": decision
+              }, sort_keys=True)
+          else:
+              action = "unknown"
+              evidence = "Councilrapport ontbreekt"
+
+          outcome = {
+              "repair_dispatched": "approve",
+              "dispatch_failed": "reject"
+          }.get(action, "defer")
+
+          subprocess.run([
+              "python", "scripts/council-forum.py",
+              "--title", "Automatische V16 Council-cyclus",
+              "--evidence", evidence,
+              "--decision", outcome,
+              "--reason",
+              "Besluit gebaseerd op de begrensde repository-inspectie."
+          ], check=True)
+          PY
+
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: city-council-v14-report
+          name: city-council-v16-report
           path: |
             reports/city-council-latest.json
             logs/council/audit.jsonl
+            docs/council/forum/
+            docs/council/decisions/
           retention-days: 30
           if-no-files-found: warn
