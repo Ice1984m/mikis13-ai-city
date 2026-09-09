@@ -1,0 +1,28 @@
+{
+  "version": 16,
+  "total_virtual_roles": 1000000,
+  "roles": {
+    "inspectors": 100000,
+    "repository_discoverers": 100000,
+    "repair_specialists": 600000,
+    "documentation_workers": 100000,
+    "council_reviewers": 100000
+  },
+  "runtime": {
+    "materialize_roles_on_demand": true,
+    "maximum_parallel_inspections": 10,
+    "maximum_active_mutation_jobs": 1,
+    "maximum_council_decisions_per_cycle": 1,
+    "direct_main_write": false,
+    "automatic_merge": false,
+    "force_push": false,
+    "blind_ai_shell_execution": false,
+    "unknown_is_success": false
+  },
+  "community": {
+    "owner_repositories_may_dispatch_repairs": true,
+    "external_repositories_are_read_only": true,
+    "external_pull_requests_require_owner_approval": true,
+    "automatic_community_spam": false
+  }
+}
