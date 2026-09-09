@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+reports/*.json
+reports/*.md
+logs/**/*.jsonl
+state/*.lock
+state/KILL_SWITCH
+state/SAFE_MODE
