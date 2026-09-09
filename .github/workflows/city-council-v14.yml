@@ -1,0 +1,47 @@
+name: Mikis13 City Council V14
+on:
+  workflow_dispatch:
+    inputs:
+      dispatch_repair:
+        description: Dispatch at most one existing allowlisted repair workflow
+        type: boolean
+        default: false
+  schedule:
+    - cron: "25 6,12,18 * * *"
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: mikis13-city-council-v14
+  cancel-in-progress: false
+jobs:
+  council:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate registry and safety policy
+        run: python tests/test-v14.py
+      - name: Inspect repositories
+        env:
+          GH_TOKEN: ${{ secrets.MIKIS13_REPO_TOKEN }}
+        run: |
+          set -Eeuo pipefail
+          test -n "${GH_TOKEN:-}" || { echo 'MIKIS13_REPO_TOKEN is required'; exit 1; }
+          if [ "${{ inputs.dispatch_repair || false }}" = "true" ]; then
+            python scripts/city-council-v14.py --dispatch
+          else
+            python scripts/city-council-v14.py
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: city-council-v14-report
+          path: |
+            reports/city-council-latest.json
+            logs/council/audit.jsonl
+          retention-days: 30
+          if-no-files-found: warn

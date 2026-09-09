@@ -1,0 +1,20 @@
+{
+  "version": 14,
+  "logical_agents": 1300,
+  "maximum_parallel_inspections": 10,
+  "maximum_active_mutation_jobs": 1,
+  "owner": "Ice1984m",
+  "direct_main_write": false,
+  "automatic_merge": false,
+  "force_push": false,
+  "unknown_is_success": false,
+  "blind_ai_shell_execution": false,
+  "allow_fork_modification": false,
+  "require_tests": true,
+  "require_security_scan": true,
+  "allowed_branch_prefix": "bot/",
+  "repair_workflow_names": [
+    "mikis13-safe-repair.yml"
+  ],
+  "log_retention_days": 30
+}
