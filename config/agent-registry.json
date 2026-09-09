@@ -1,0 +1,6504 @@
+{
+  "agents": [
+    {
+      "id": "inspect-0001",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0002",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0003",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0004",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0005",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0006",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0007",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0008",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0009",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0010",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0011",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0012",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0013",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0014",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0015",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0016",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0017",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0018",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0019",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0020",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0021",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0022",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0023",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0024",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0025",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0026",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0027",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0028",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0029",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0030",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0031",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0032",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0033",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0034",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0035",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0036",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0037",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0038",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0039",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0040",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0041",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0042",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0043",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0044",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0045",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0046",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0047",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0048",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0049",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0050",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0051",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0052",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0053",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0054",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0055",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0056",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0057",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0058",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0059",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0060",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0061",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0062",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0063",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0064",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0065",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0066",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0067",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0068",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0069",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0070",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0071",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0072",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0073",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0074",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0075",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0076",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0077",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0078",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0079",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0080",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0081",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0082",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0083",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0084",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0085",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0086",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0087",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0088",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0089",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0090",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0091",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0092",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0093",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0094",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0095",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0096",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0097",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0098",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0099",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0100",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0101",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0102",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0103",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0104",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0105",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0106",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0107",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0108",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0109",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0110",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0111",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0112",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0113",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0114",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0115",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0116",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0117",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0118",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0119",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0120",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0121",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0122",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0123",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0124",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0125",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0126",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0127",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0128",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0129",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0130",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0131",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0132",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0133",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0134",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0135",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0136",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0137",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0138",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0139",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0140",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0141",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0142",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0143",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0144",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0145",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0146",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0147",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0148",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0149",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0150",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0151",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0152",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0153",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0154",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0155",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0156",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0157",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0158",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0159",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0160",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0161",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0162",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0163",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0164",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0165",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0166",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0167",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0168",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0169",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0170",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0171",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0172",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0173",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0174",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0175",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0176",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0177",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0178",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0179",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0180",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0181",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0182",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0183",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0184",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0185",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0186",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0187",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0188",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0189",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0190",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0191",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0192",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0193",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0194",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0195",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0196",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0197",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0198",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0199",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "inspect-0200",
+      "class": "inspector",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0001",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0002",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0003",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0004",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0005",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0006",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0007",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0008",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0009",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0010",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0011",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0012",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0013",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0014",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0015",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0016",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0017",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0018",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0019",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0020",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0021",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0022",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0023",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0024",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0025",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0026",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0027",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0028",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0029",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0030",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0031",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0032",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0033",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0034",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0035",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0036",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0037",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0038",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0039",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0040",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0041",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0042",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0043",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0044",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0045",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0046",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0047",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0048",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0049",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0050",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0051",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0052",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0053",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0054",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0055",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0056",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0057",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0058",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0059",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0060",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0061",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0062",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0063",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0064",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0065",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0066",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0067",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0068",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0069",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0070",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0071",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0072",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0073",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0074",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0075",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0076",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0077",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0078",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0079",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0080",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0081",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0082",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0083",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0084",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0085",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0086",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0087",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0088",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0089",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0090",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0091",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0092",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0093",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0094",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0095",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0096",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0097",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0098",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0099",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "discover-0100",
+      "class": "repository_discoverer",
+      "can_mutate": false
+    },
+    {
+      "id": "repair-0001",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0002",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0003",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0004",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0005",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0006",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0007",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0008",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0009",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0010",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0011",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0012",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0013",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0014",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0015",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0016",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0017",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0018",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0019",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0020",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0021",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0022",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0023",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0024",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0025",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0026",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0027",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0028",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0029",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0030",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0031",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0032",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0033",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0034",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0035",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0036",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0037",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0038",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0039",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0040",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0041",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0042",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0043",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0044",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0045",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0046",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0047",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0048",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0049",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0050",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0051",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0052",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0053",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0054",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0055",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0056",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0057",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0058",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0059",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0060",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0061",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0062",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0063",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0064",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0065",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0066",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0067",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0068",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0069",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0070",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0071",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0072",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0073",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0074",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0075",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0076",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0077",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0078",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0079",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0080",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0081",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0082",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0083",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0084",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0085",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0086",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0087",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0088",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0089",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0090",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0091",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0092",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0093",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0094",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0095",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0096",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0097",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0098",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0099",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0100",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0101",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0102",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0103",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0104",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0105",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0106",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0107",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0108",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0109",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0110",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0111",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0112",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0113",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0114",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0115",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0116",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0117",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0118",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0119",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0120",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0121",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0122",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0123",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0124",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0125",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0126",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0127",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0128",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0129",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0130",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0131",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0132",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0133",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0134",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0135",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0136",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0137",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0138",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0139",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0140",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0141",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0142",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0143",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0144",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0145",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0146",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0147",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0148",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0149",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0150",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0151",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0152",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0153",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0154",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0155",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0156",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0157",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0158",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0159",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0160",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0161",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0162",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0163",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0164",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0165",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0166",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0167",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0168",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0169",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0170",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0171",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0172",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0173",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0174",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0175",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0176",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0177",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0178",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0179",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0180",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0181",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0182",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0183",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0184",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0185",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0186",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0187",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0188",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0189",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0190",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0191",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0192",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0193",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0194",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0195",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0196",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0197",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0198",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0199",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0200",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0201",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0202",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0203",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0204",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0205",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0206",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0207",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0208",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0209",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0210",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0211",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0212",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0213",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0214",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0215",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0216",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0217",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0218",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0219",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0220",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0221",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0222",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0223",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0224",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0225",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0226",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0227",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0228",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0229",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0230",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0231",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0232",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0233",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0234",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0235",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0236",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0237",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0238",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0239",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0240",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0241",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0242",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0243",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0244",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0245",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0246",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0247",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0248",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0249",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0250",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0251",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0252",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0253",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0254",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0255",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0256",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0257",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0258",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0259",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0260",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0261",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0262",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0263",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0264",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0265",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0266",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0267",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0268",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0269",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0270",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0271",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0272",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0273",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0274",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0275",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0276",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0277",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0278",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0279",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0280",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0281",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0282",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0283",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0284",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0285",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0286",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0287",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0288",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0289",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0290",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0291",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0292",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0293",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0294",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0295",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0296",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0297",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0298",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0299",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0300",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0301",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0302",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0303",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0304",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0305",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0306",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0307",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0308",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0309",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0310",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0311",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0312",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0313",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0314",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0315",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0316",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0317",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0318",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0319",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0320",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0321",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0322",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0323",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0324",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0325",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0326",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0327",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0328",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0329",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0330",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0331",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0332",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0333",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0334",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0335",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0336",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0337",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0338",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0339",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0340",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0341",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0342",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0343",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0344",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0345",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0346",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0347",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0348",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0349",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0350",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0351",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0352",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0353",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0354",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0355",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0356",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0357",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0358",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0359",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0360",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0361",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0362",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0363",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0364",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0365",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0366",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0367",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0368",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0369",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0370",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0371",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0372",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0373",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0374",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0375",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0376",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0377",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0378",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0379",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0380",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0381",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0382",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0383",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0384",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0385",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0386",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0387",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0388",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0389",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0390",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0391",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0392",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0393",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0394",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0395",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0396",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0397",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0398",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0399",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0400",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0401",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0402",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0403",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0404",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0405",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0406",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0407",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0408",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0409",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0410",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0411",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0412",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0413",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0414",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0415",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0416",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0417",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0418",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0419",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0420",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0421",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0422",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0423",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0424",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0425",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0426",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0427",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0428",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0429",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0430",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0431",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0432",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0433",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0434",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0435",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0436",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0437",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0438",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0439",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0440",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0441",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0442",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0443",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0444",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0445",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0446",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0447",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0448",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0449",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0450",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0451",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0452",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0453",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0454",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0455",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0456",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0457",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0458",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0459",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0460",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0461",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0462",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0463",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0464",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0465",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0466",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0467",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0468",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0469",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0470",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0471",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0472",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0473",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0474",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0475",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0476",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0477",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0478",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0479",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0480",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0481",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0482",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0483",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0484",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0485",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0486",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0487",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0488",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0489",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0490",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0491",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0492",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0493",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0494",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0495",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0496",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0497",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0498",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0499",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0500",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0501",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0502",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0503",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0504",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0505",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0506",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0507",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0508",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0509",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0510",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0511",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0512",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0513",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0514",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0515",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0516",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0517",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0518",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0519",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0520",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0521",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0522",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0523",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0524",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0525",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0526",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0527",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0528",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0529",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0530",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0531",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0532",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0533",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0534",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0535",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0536",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0537",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0538",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0539",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0540",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0541",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0542",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0543",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0544",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0545",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0546",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0547",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0548",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0549",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0550",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0551",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0552",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0553",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0554",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0555",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0556",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0557",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0558",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0559",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0560",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0561",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0562",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0563",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0564",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0565",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0566",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0567",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0568",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0569",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0570",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0571",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0572",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0573",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0574",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0575",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0576",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0577",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0578",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0579",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0580",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0581",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0582",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0583",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0584",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0585",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0586",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0587",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0588",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0589",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0590",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0591",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0592",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0593",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0594",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0595",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0596",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0597",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0598",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0599",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0600",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0601",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0602",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0603",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0604",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0605",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0606",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0607",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0608",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0609",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0610",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0611",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0612",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0613",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0614",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0615",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0616",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0617",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0618",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0619",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0620",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0621",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0622",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0623",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0624",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0625",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0626",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0627",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0628",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0629",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0630",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0631",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0632",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0633",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0634",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0635",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0636",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0637",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0638",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0639",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0640",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0641",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0642",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0643",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0644",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0645",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0646",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0647",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0648",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0649",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0650",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0651",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0652",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0653",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0654",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0655",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0656",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0657",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0658",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0659",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0660",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0661",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0662",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0663",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0664",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0665",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0666",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0667",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0668",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0669",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0670",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0671",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0672",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0673",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0674",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0675",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0676",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0677",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0678",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0679",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0680",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0681",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0682",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0683",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0684",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0685",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0686",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0687",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0688",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0689",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0690",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0691",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0692",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0693",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0694",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0695",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0696",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0697",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0698",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0699",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0700",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0701",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0702",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0703",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0704",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0705",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0706",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0707",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0708",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0709",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0710",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0711",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0712",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0713",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0714",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0715",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0716",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0717",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0718",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0719",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0720",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0721",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0722",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0723",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0724",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0725",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0726",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0727",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0728",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0729",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0730",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0731",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0732",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0733",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0734",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0735",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0736",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0737",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0738",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0739",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0740",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0741",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0742",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0743",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0744",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0745",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0746",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0747",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0748",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0749",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0750",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0751",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0752",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0753",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0754",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0755",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0756",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0757",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0758",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0759",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0760",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0761",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0762",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0763",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0764",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0765",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0766",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0767",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0768",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0769",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0770",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0771",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0772",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0773",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0774",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0775",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0776",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0777",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0778",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0779",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0780",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0781",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0782",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0783",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0784",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0785",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0786",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0787",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0788",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0789",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0790",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0791",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0792",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0793",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0794",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0795",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0796",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0797",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0798",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0799",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0800",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0801",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0802",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0803",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0804",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0805",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0806",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0807",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0808",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0809",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0810",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0811",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0812",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0813",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0814",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0815",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0816",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0817",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0818",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0819",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0820",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0821",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0822",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0823",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0824",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0825",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0826",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0827",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0828",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0829",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0830",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0831",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0832",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0833",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0834",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0835",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0836",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0837",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0838",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0839",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0840",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0841",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0842",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0843",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0844",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0845",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0846",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0847",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0848",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0849",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0850",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0851",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0852",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0853",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0854",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0855",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0856",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0857",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0858",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0859",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0860",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0861",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0862",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0863",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0864",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0865",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0866",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0867",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0868",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0869",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0870",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0871",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0872",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0873",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0874",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0875",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0876",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0877",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0878",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0879",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0880",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0881",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0882",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0883",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0884",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0885",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0886",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0887",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0888",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0889",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0890",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0891",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0892",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0893",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0894",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0895",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0896",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0897",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0898",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0899",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0900",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0901",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0902",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0903",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0904",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0905",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0906",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0907",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0908",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0909",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0910",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0911",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0912",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0913",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0914",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0915",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0916",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0917",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0918",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0919",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0920",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0921",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0922",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0923",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0924",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0925",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0926",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0927",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0928",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0929",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0930",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0931",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0932",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0933",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0934",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0935",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0936",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0937",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0938",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0939",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0940",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0941",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0942",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0943",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0944",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0945",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0946",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0947",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0948",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0949",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0950",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0951",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0952",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0953",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0954",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0955",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0956",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0957",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0958",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0959",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0960",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0961",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0962",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0963",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0964",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0965",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0966",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0967",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0968",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0969",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0970",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0971",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0972",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0973",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0974",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0975",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0976",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0977",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0978",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0979",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0980",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0981",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0982",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0983",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0984",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0985",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0986",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0987",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0988",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0989",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0990",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0991",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0992",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0993",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0994",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0995",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0996",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0997",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0998",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-0999",
+      "class": "repair_role",
+      "can_mutate": true
+    },
+    {
+      "id": "repair-1000",
+      "class": "repair_role",
+      "can_mutate": true
+    }
+  ]
+}

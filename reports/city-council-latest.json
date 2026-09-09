@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-09-09T21:56:47.987176+00:00",
+  "policy": {
+    "version": 14,
+    "logical_agents": 1300,
+    "maximum_parallel_inspections": 10,
+    "maximum_active_mutation_jobs": 1,
+    "owner": "Ice1984m",
+    "direct_main_write": false,
+    "automatic_merge": false,
+    "force_push": false,
+    "unknown_is_success": false,
+    "blind_ai_shell_execution": false,
+    "allow_fork_modification": false,
+    "require_tests": true,
+    "require_security_scan": true,
+    "allowed_branch_prefix": "bot/",
+    "repair_workflow_names": [
+      "mikis13-safe-repair.yml"
+    ],
+    "log_retention_days": 30
+  },
+  "repository_count": 34,
+  "eligible_repairs": 0,
+  "decision": {
+    "action": "monitor_only",
+    "reason": "no eligible failure"
+  },
+  "repositories": [
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-edgehub",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34401369561,
+        "name": ".github/workflows/mikis13-safe-repair.yml",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-edgehub/actions/runs/34401369561"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-server",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34401352607,
+        "name": ".github/workflows/mikis13-safe-repair.yml",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-server/actions/runs/34401352607"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-site",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34401335072,
+        "name": ".github/workflows/mikis13-safe-repair.yml",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-site/actions/runs/34401335072"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-autodev-hub",
+      "visibility": "PRIVATE",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34401314893,
+        "name": ".github/workflows/mikis13-safe-repair.yml",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-autodev-hub/actions/runs/34401314893"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-lab-development-blueprint-incubator",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-container-bot",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 33759144265,
+        "name": "Validate Container Bot",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-container-bot/actions/runs/33759144265"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-evolution-engine",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-ai-city",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-lab-autonomous-recovery-monitor",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/Card-virtuweel",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "cancelled",
+        "databaseId": 29494060492,
+        "name": "Running Copilot cloud agent",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/Card-virtuweel/actions/runs/29494060492"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-ai-robots",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-survival-network",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-nexus",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 31677383291,
+        "name": "MIKIS13 NEXUS PRO CI",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-nexus/actions/runs/31677383291"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/nexus-autoforge-ai",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 31678468581,
+        "name": "MIKIS13 NEXUS PRO CI",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/nexus-autoforge-ai/actions/runs/31678468581"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-control-plane",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34272756688,
+        "name": "github_actions in /. - Update #1564299128",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-control-plane/actions/runs/34272756688"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-ps5-lab",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-private-backup",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-ai",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 31128385314,
+        "name": "Running Copilot cloud agent",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-ai/actions/runs/31128385314"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-tech-services",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-cyber-guard",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-agent-control",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-termux-control",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-youtube-android",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/ai-repair-bots",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-ai-robot",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-pro",
+      "visibility": "PUBLIC",
+      "latest_failure": {
+        "conclusion": "cancelled",
+        "databaseId": 30248563580,
+        "name": "Publiceer Mikis13 website",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis13-pro/actions/runs/30248563580"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis-live-dashboard",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis-research-school",
+      "visibility": "PRIVATE",
+      "latest_failure": {
+        "conclusion": "failure",
+        "databaseId": 34404097390,
+        "name": "Research School",
+        "status": "completed",
+        "url": "https://github.com/Ice1984m/mikis-research-school/actions/runs/34404097390"
+      },
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/Readme-profile-Hi-there-",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/Ice1984m",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-developer-assessment",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikis13-app-access-test",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/mikisworkflow",
+      "visibility": "PUBLIC",
+      "latest_failure": null,
+      "safe_repair_available": false
+    },
+    {
+      "isArchived": false,
+      "isFork": false,
+      "nameWithOwner": "Ice1984m/studio",
+      "visibility": "PRIVATE",
+      "latest_failure": null,
+      "safe_repair_available": false
+    }
+  ]
+}
