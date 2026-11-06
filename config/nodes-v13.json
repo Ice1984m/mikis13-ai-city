@@ -1,0 +1,71 @@
+{
+  "version": 13,
+  "nodes": [
+    {
+      "node_id": "TERMUX-HOME-01",
+      "type": "termux",
+      "zone": "local",
+      "status": "HEALTHY",
+      "trust": "T3",
+      "mutation": false,
+      "capabilities": [
+        "git-status",
+        "git-diff-check",
+        "shell-syntax",
+        "json-validate",
+        "file-sha256",
+        "http-health",
+        "gh-pr-view",
+        "gh-run-list"
+      ]
+    },
+    {
+      "node_id": "GH-RUNNER-A",
+      "type": "github_actions",
+      "zone": "provider-managed-a",
+      "status": "HEALTHY",
+      "trust": "T2",
+      "mutation": false,
+      "capabilities": [
+        "git-status",
+        "git-diff-check",
+        "shell-syntax",
+        "json-validate",
+        "file-sha256",
+        "http-health"
+      ]
+    },
+    {
+      "node_id": "GH-RUNNER-B",
+      "type": "github_actions",
+      "zone": "provider-managed-b",
+      "status": "HEALTHY",
+      "trust": "T2",
+      "mutation": false,
+      "capabilities": [
+        "git-status",
+        "git-diff-check",
+        "shell-syntax",
+        "json-validate",
+        "file-sha256",
+        "http-health"
+      ]
+    },
+    {
+      "node_id": "GH-RUNNER-C",
+      "type": "github_actions",
+      "zone": "provider-managed-c",
+      "status": "HEALTHY",
+      "trust": "T2",
+      "mutation": false,
+      "capabilities": [
+        "git-status",
+        "git-diff-check",
+        "shell-syntax",
+        "json-validate",
+        "file-sha256",
+        "http-health"
+      ]
+    }
+  ]
+}

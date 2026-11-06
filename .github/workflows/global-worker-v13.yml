@@ -1,0 +1,78 @@
+name: Mikis13 V13 Global Read-Only Worker
+run-name: V13 ${{ inputs.job_id || github.sha }}
+
+on:
+  push:
+    branches:
+      - 'bot/v13-global-federation-*'
+  workflow_dispatch:
+    inputs:
+      node:
+        description: Registered V13 node
+        required: true
+        type: choice
+        options: [GH-RUNNER-A, GH-RUNNER-B, GH-RUNNER-C]
+      job_id:
+        description: V13 job id
+        required: true
+        type: string
+      action:
+        description: Read-only capability
+        required: true
+        type: choice
+        options: [git-status, git-diff-check, shell-syntax, json-validate, file-sha256, http-health]
+      target:
+        description: Repository-relative path or allow-listed HTTPS URL
+        required: true
+        type: string
+      expected:
+        description: Expected value (HTTP defaults to 200)
+        required: false
+        default: '200'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate V13
+        run: |
+          python -m json.tool config/v13-policy.json >/dev/null
+          python -m json.tool config/nodes-v13.json >/dev/null
+          python -m json.tool config/regions-v13.json >/dev/null
+          python -m py_compile engine/federation_v13.py engine/global_worker_v13.py
+          python tests/test_v13.py
+          bash -n scripts/v13-*.sh
+
+  worker:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      V13_NODE: ${{ inputs.node }}
+      V13_JOB_ID: ${{ inputs.job_id }}
+      V13_ACTION: ${{ inputs.action }}
+      V13_TARGET: ${{ inputs.target }}
+      V13_EXPECTED: ${{ inputs.expected }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Execute bounded read-only job
+        run: |
+          python engine/global_worker_v13.py execute-remote \
+            --node "$V13_NODE" \
+            --job-id "$V13_JOB_ID" \
+            --action "$V13_ACTION" \
+            --target "$V13_TARGET" \
+            --expected "$V13_EXPECTED"

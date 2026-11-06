@@ -12,3 +12,5 @@ state/**/*.sqlite
 logs/*.log
 __pycache__/
 *.pyc
+
+state/v13/
